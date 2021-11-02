@@ -1,0 +1,75 @@
+<div class="register-container" [formGroup]="registerForm">
+    <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="First Name" id="firstName" name="firstName" formControlName="firstName">
+        <mat-error *ngIf="registerForm.get('firstName')?.errors?.required">First Name is required.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Count</mat-label>
+        <input matInput placeholder="Count" type="number" formControlName="count">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Select Type</mat-label>
+        <mat-select formControlName="selectType">
+            <mat-option>None</mat-option>
+            <mat-option value="option1">Option 1</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+            <mat-option value="option3">Option 3</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Eamil</mat-label>
+        <input matInput placeholder="Eamil" type="email" formControlName="email">
+        <mat-error *ngIf="registerForm.get('email')?.errors?.required">Email is required.</mat-error>
+        <mat-error *ngIf="registerForm.get('email')?.errors?.email">Email is invalid.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Passowrd</mat-label>
+        <input matInput placeholder="Passowrd" type="password" formControlName="password">
+        <mat-error *ngIf="registerForm.get('password')?.errors?.required">Password is required.</mat-error>
+        <mat-error *ngIf="registerForm.get('password')?.errors?.hasNumber">Password required at least one number.
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('password')?.errors?.hasCapitalCase">Password required at least one capital
+            letter.</mat-error>
+        <mat-error *ngIf="registerForm.get('password')?.errors?.hasSpecialCharacters">Password required Special case
+            char..</mat-error>
+        <mat-error *ngIf="registerForm.get('password')?.errors?.minlength?.requiredLength">Password should be atleast 8
+            chars.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Confirm Passowrd</mat-label>
+        <input matInput placeholder="Confirm Passowrd" type="password" formControlName="confirmPassword">
+        <mat-error *ngIf="registerForm.get('confirmPassword')?.errors?.required">Confirm Password is required.
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('confirmPassword')?.errors?.NoPassswordMatch">Password miss match.
+        </mat-error>
+    </mat-form-field>
+
+    <!-- <button class="btn-width" color="primary" mat-raised-button (click)="onSubmit()">Register</button> -->
+
+
+    <button [disabled]="registerForm.invalid" class="btn-width" color="primary" mat-raised-button [swal]="{ title: 'Registration :# with password '+ registerForm.get('password')?.value, 
+       showDenyButton: false, showCancelButton: true }" (confirm)="onSubmit()">
+        Register
+    </button>
+</div>
+
+<!-- to it later -->
+<!-- display schools which having students more 100:
+
+select schoolName from (
+select 
+school.name as schoolName
+count(student.id) stCount
+from 
+schools school
+full outer join Student student on student.schoolId = school.id
+having stCount > 100
+)
+
+ -->

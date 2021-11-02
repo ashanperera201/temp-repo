@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>test_server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\test-server.common\TestServer.Common.csproj" />
+    <ProjectReference Include="..\test-server.service\TestServer.Services.csproj" />
+    <ProjectReference Include="..\TestServer.Contracts\TestServer.Contracts.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.AssemblyInfo.cs
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Services.deps.json
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Services.dll
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Services.pdb
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Common.dll
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Contracts.dll
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Common.pdb
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\bin\Debug\netcoreapp3.1\TestServer.Contracts.pdb
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.csproj.CopyComplete
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.dll
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.service\obj\Debug\netcoreapp3.1\TestServer.Services.pdb

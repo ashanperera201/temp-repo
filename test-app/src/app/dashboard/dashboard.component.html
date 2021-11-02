@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <div class="wrapper--col-1">
+    <div class="content-type">
+      <mat-form-field appearance="outline">
+        <mat-label>Search</mat-label>
+        <input matInput placeholder="Search" [(ngModel)]="searchTerm" (ngModelChange)="onInputChange()">
+      </mat-form-field>
+
+      <div class="content-type--persons">
+        <mat-card *ngFor="let person of searchedPersons" class="example-card" (click)="selectPerson(person)">
+          <mat-card-title-group>
+            <mat-card-title>{{person?.firstName}}</mat-card-title>
+            <mat-card-subtitle>{{person?.email}}</mat-card-subtitle>
+          </mat-card-title-group>
+        </mat-card>
+      </div>
+
+    </div>
+  </div>
+  <div class="wrapper--col-2">
+    <mat-card class="example-card" *ngIf="pickedPerson">
+      <mat-card-title-group>
+        <mat-card-title>{{pickedPerson?.firstName}}</mat-card-title>
+        <mat-card-subtitle>{{pickedPerson?.email}}</mat-card-subtitle>
+      </mat-card-title-group>
+      <mat-card-content>
+        <span>Total Count : {{pickedPerson?.count}}</span>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+C:\Users\DELL\Desktop\courses\test\test-server\test-server\obj\Debug\netcoreapp3.1\test-server.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server\obj\Debug\netcoreapp3.1\test-server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\courses\test\test-server\test-server\obj\Debug\netcoreapp3.1\test-server.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server\obj\Debug\netcoreapp3.1\test-server.AssemblyInfo.cs
+C:\Users\DELL\Desktop\courses\test\test-server\test-server\obj\Debug\netcoreapp3.1\test-server.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server\obj\Debug\netcoreapp3.1\test-server.MvcApplicationPartsAssemblyInfo.cache

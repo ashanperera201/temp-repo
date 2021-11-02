@@ -1,0 +1,10 @@
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\bin\Debug\netcoreapp3.1\test-server.common.deps.json
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\bin\Debug\netcoreapp3.1\test-server.common.dll
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\bin\Debug\netcoreapp3.1\test-server.common.pdb
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.AssemblyInfo.cs
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.dll
+C:\Users\DELL\Desktop\courses\test\test-server\test-server.common\obj\Debug\netcoreapp3.1\test-server.common.pdb
